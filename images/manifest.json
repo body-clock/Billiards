@@ -1,0 +1,11 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://body-clock.github.io/Billiards/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in body-clock/Billiards project"
+        ]
+    },
+    "items": []
+}
