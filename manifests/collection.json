@@ -1,0 +1,13 @@
+{
+  "id" : "https://body-clock.github.io/Billiards/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in body-clock/Billiards project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://body-clock.github.io/Billiards/manifests/snooker2.json",
+    "label" : "This is a test manifiest!"
+  } ]
+}
