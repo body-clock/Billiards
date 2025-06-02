@@ -1,0 +1,80 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "snooker",
+      "@type" : "oa:Tag",
+      "chars" : "snooker"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "There seems to be a cover on the snooker table.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>There seems to be a cover on the snooker table.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/28279015",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2025-06-02T16:46:14",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1748882774821",
+    "dcterms:modified" : "2025-06-02T16:46:14",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://body-clock.github.io/Billiards/manifests/snooker2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1556,3276,825,575"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1555.64411,3276.3734h412.48308v0h412.48308v287.68903v287.68903h-412.48308h-412.48308v-287.68903z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_1fb8bf46-fdaf-4c8c-893e-975697a83e6e\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://ee9aef94-7a9e-40dd-a455-086cf78c9e40"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "hat",
+      "@type" : "oa:Tag",
+      "chars" : "hat"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "This guy is wearing an awesome orange hat.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>This guy is wearing an awesome orange hat.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/28279015",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2025-06-02T16:45:50",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1748882749437",
+    "dcterms:modified" : "2025-06-02T16:45:50",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://body-clock.github.io/Billiards/manifests/snooker2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=2507,2521,339,319"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2506.77713,2520.86348h169.64061v0h169.64061v159.52217v159.52217h-169.64061h-169.64061v-159.52217z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_c80d83bc-7290-49f4-99f8-0123b7f375b9\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://ee9aef94-7a9e-40dd-a455-086cf78c9e40"
+    } ]
+  } ],
+  "@id" : "https://body-clock.github.io/Billiards/annotations/annotations.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
