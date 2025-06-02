@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://body-clock.github.io/Billiards/annotations/annotations.json" ],
+  "@id" : "https://body-clock.github.io/Billiards/annotations/collection.json",
+  "label" : "All annotations loaded in body-clock/Billiards project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
