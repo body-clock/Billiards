@@ -1,0 +1,83 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://body-clock.github.io/Billiards/manifests/snooker2.json",
+  "@type" : "sc:Manifest",
+  "label" : "This is a test manifiest!",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "This is my awesome manifest. It containes some pictures of snooker tables and a guy that I found in the UPenn digital repository.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Copyright UPenn Libraries",
+  "sequences" : [ {
+    "@id" : "http://55da0d1e-1f43-4e3d-b45b-57f71a72d1b6",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://ee9aef94-7a9e-40dd-a455-086cf78c9e40",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 5781,
+      "width" : 3945,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://daf545ef-1159-405c-ae0c-05746ddb4c65",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif-images.library.upenn.edu/iiif/2/fbfac167-96ff-4718-856a-41c39c5dfcbb/access/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif-images.library.upenn.edu/iiif/2/fbfac167-96ff-4718-856a-41c39c5dfcbb/access",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "jpeg", "tif", "tiff", "png", "webp" ],
+              "qualities" : [ "color", "gray", "bitonal", "default" ],
+              "supports" : [ "baseUriRedirect", "canonicalLinkHeader", "cors", "jsonldMediaType", "mirroring", "profileLinkHeader", "regionByPct", "regionByPx", "regionSquare", "rotationArbitrary", "rotationBy90s", "sizeAboveFull", "sizeByConfinedWh", "sizeByDistortedWh", "sizeByForcedWh", "sizeByH", "sizeByPct", "sizeByW", "sizeByWh", "sizeByWhListed" ]
+            } ]
+          },
+          "height" : 5781,
+          "width" : 3945
+        },
+        "on" : "http://ee9aef94-7a9e-40dd-a455-086cf78c9e40"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://7167854a-bb29-4814-89cc-281ea5ea2aab",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 3945,
+      "width" : 5781,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b2a0b273-a250-4370-8df6-7fc58ea96e96",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif-images.library.upenn.edu/iiif/2/2769a5c9-2a4f-4169-820d-31be31f0d99d/access/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif-images.library.upenn.edu/iiif/2/2769a5c9-2a4f-4169-820d-31be31f0d99d/access",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "jpeg", "tif", "tiff", "png", "webp" ],
+              "qualities" : [ "color", "gray", "bitonal", "default" ],
+              "supports" : [ "baseUriRedirect", "canonicalLinkHeader", "cors", "jsonldMediaType", "mirroring", "profileLinkHeader", "regionByPct", "regionByPx", "regionSquare", "rotationArbitrary", "rotationBy90s", "sizeAboveFull", "sizeByConfinedWh", "sizeByDistortedWh", "sizeByForcedWh", "sizeByH", "sizeByPct", "sizeByW", "sizeByWh", "sizeByWhListed" ]
+            } ]
+          },
+          "height" : 3945,
+          "width" : 5781
+        },
+        "on" : "http://7167854a-bb29-4814-89cc-281ea5ea2aab"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
